@@ -1,6 +1,6 @@
 cask "swiftr" do
-  version "0.1.0"
-  sha256 "6c839ee0c2645449b608214915adbff33055bfa479b43875ec700a49a1d18f90"
+  version "0.1.1"
+  sha256 "d0239f0de4add0eb83109e52f968963e41649ef2e7607c2ed6a759d185a86e11"
 
   url "https://github.com/MelvinSDRS/swiftr/releases/download/v#{version}/Swiftr-#{version}.dmg"
   name "Swiftr"
@@ -12,7 +12,6 @@ cask "swiftr" do
     strategy :github_latest
   end
 
-  depends_on arch: :arm64
   depends_on macos: :tahoe
 
   app "Swiftr.app"
