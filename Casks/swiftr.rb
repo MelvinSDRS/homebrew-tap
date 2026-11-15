@@ -1,6 +1,6 @@
 cask "swiftr" do
-  version "0.1.2"
-  sha256 "b5b5a08eb0a426537c01765e7336e366141a63fb65db4a4772b6cbb0afc71aa6"
+  version "0.1.3"
+  sha256 "7397f516691e28bf5b2d3d6bd73b7e514010ff87210909656318a184bd18bb79"
 
   url "https://github.com/MelvinSDRS/swiftr/releases/download/v#{version}/Swiftr-#{version}.dmg"
   name "Swiftr"
